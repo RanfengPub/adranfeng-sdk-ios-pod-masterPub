@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'ADRanFengSDK'
+  s.name             = 'ADRanFengSDKPub'
   s.version          = '2.2.9.1'
   s.summary          = 'A short description of ADRanFengSDK.'
 
@@ -15,16 +15,16 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/ADRanfeng/adranfeng-sdk-ios-pod.git'
+  s.homepage         = 'https://github.com/RanfengPub/adranfeng-sdk-ios-pod-masterPub'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = {"business@ssdmobile.cn"=>"business@ssdmobile.cn"}
-  s.source           = { :git => 'https://github.com/ADRanfeng/adranfeng-sdk-ios-pod.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/RanfengPub/adranfeng-sdk-ios-pod-masterPub.git', :tag => s.version.to_s }
   
   s.vendored_frameworks = 'ADRanFengSDK/Classes/*.xcframework'
 
-  s.dependency 'ADRFMediationKit', '~> 0.7.4.12031'
-  s.dependency 'ADRFMediationNetwork', '~> 0.2.1.0'
-  s.dependency 'ADRFMediationLocationManager', '~> 0.2.1.01301'
+  s.dependency 'ADRFMediationKitPub', '~> 0.7.4.12031'
+  s.dependency 'ADRFMediationNetworkPub', '~> 0.2.1.0'
+  s.dependency 'ADRFMediationLocationManagerPub', '~> 0.2.1.01301'
 
   s.ios.deployment_target = '9.0'
   s.static_framework = true
