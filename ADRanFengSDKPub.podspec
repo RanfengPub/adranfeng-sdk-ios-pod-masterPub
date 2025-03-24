@@ -23,7 +23,7 @@ TODO: Add long description of the pod here.
   s.vendored_frameworks = 'ADRanFengSDK/Classes/*.xcframework'
 
   s.dependency 'ADRFMediationKitPub', '~> 0.7.4.12031'
-  s.dependency 'ADRFMediationNetworkPub', '~> 0.2.1.0'
+  s.dependency 'ADRFMediationNetworkPub', '~> 0.2.1.06291'
   s.dependency 'ADRFMediationLocationManagerPub', '~> 0.2.1.01301'
 
   s.ios.deployment_target = '9.0'
